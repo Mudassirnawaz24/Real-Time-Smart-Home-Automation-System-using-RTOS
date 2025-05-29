@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="images/header_banner.png" width="75%" height="75%">
-</p>
+
 
 <p align="center">
    <img src="https://img.shields.io/badge/ESPRESSIF-ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white" >
