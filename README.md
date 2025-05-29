@@ -2,7 +2,6 @@
   <img src="https://user-images.githubusercontent.com/80714882/234116124-5bbd7e92-5432-42f2-bb0e-574ed005aee8.png" width="75%" height="75%">
 </p>
 
-
 <p align="center">
    <img src="https://img.shields.io/badge/ESPRESSIF-ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white" >
    <img src="https://img.shields.io/badge/FreeRTOS-4bbb4f?style=for-the-badge">
