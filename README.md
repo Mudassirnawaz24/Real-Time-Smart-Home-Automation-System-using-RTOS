@@ -1,4 +1,4 @@
-**Real-Time-Smart-Home-Automation-System-using-RTOS**
+## 'Real-Time-Smart-Home-Automation-System-using-RTOS'
 
 <p align="center">
    <img src="https://img.shields.io/badge/ESPRESSIF-ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white" >
