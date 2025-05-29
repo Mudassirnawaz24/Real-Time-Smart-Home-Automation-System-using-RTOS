@@ -178,7 +178,7 @@ The fan/bulb is operated in 3 modes using relays,
 
 ## Creator
 
-**Parikshit Pagare**
+**Shaik Mudassir Nawaz**
 
 <a href="https://www.linkedin.com/in/shaik-mudassir-nawaz-6a7a57277/"><img src="https://img.shields.io/badge/Linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white.svg"/></a>
 
