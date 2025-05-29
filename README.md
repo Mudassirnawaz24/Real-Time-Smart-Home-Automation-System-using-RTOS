@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/80714882/234116124-5bbd7e92-5432-42f2-bb0e-574ed005aee8.png" width="75%" height="75%">
+  <img src="images/header_banner.png" width="75%" height="75%">
 </p>
 
 <p align="center">
@@ -15,7 +15,7 @@ Home automation system developed on ESP32 microcontroller using freeRTOS with sm
 &nbsp;
 
 <p align="center">
-	<img src="https://user-images.githubusercontent.com/80714882/234113165-50b23e8c-def4-42bf-a306-8ba56830c085.jpg" width="75%" height="75%">
+	<img src="images/2(1).jpg" width="75%" height="75%">
 </p>
 
 ## Recognition
@@ -29,16 +29,6 @@ When we think of home automation we generally visualize switching on/off some bu
 
 - To achieve true home automation Real Time Operating System (RTOS) is integrated in the system which can perform multiple things simultaneously.
 - The system is smart enough to automatically trigger actions based on certain events happening in real time.
-
-## Demo
-
-#### Complete Version
-
-- YouTube - [youtu.be/aT6Lj6hBVUk](https://youtu.be/aT6Lj6hBVUk)
-
-#### Short Version
-
-- Reddit - [reddit.com/smart_home_automation](https://www.reddit.com/r/homeautomation/comments/13aod3a/built_a_complete_smart_home_automation_system/)
 
 ## Features
 
@@ -60,7 +50,7 @@ When we think of home automation we generally visualize switching on/off some bu
 - It is developed to resemble a room in a house.
 
 <p align="center">
-	<img src="https://user-images.githubusercontent.com/80714882/234113332-74fb8622-caf8-4488-b6c7-f4801b7c3afe.jpg" width="75%" height="75%">
+	<img src="images/3(1).jpg" width="75%" height="75%">
 </p>
 
 ### Requirements
@@ -82,7 +72,7 @@ When we think of home automation we generally visualize switching on/off some bu
 Components can be assembled and connected as shown in the schematic.
 
 <p align="center">
-	<img src="https://github.com/parikshitpagare/smart-home-automation-rtos/assets/80714882/7b1ebb97-7876-485a-b43b-686890d2b0f5" width="80%" height="80%">
+	<img src="images/4(1).jpg" width="80%" height="80%">
 </p>
 
 ## Software  
@@ -116,7 +106,7 @@ Certain libraries are required for proper functioning of the microcontroller and
 The Android app is developed on [MIT App Inventor](https://appinventor.mit.edu/) platform.
 
 <p align="center">
-	<img src="https://user-images.githubusercontent.com/80714882/234113882-f83c0412-1feb-4512-9034-2f692feeefb5.png" width="80%" height="80%">
+	<img src="images/5.jpg" width="80%" height="80%">
 </p>
 
 ## Working
@@ -127,7 +117,7 @@ The Android app is developed on [MIT App Inventor](https://appinventor.mit.edu/)
 - There is no external bluetooth module used as the ESP32 microcontroller has one builtin.
 
 <p align="center">
-	<img src="https://user-images.githubusercontent.com/80714882/234114055-145417d4-2d16-4848-a3a1-4b87104e7108.png" width="80%" height="80%">
+	<img src="images/6.jpgg" width="80%" height="80%">
 </p> 
 
 ### Activity Monitoring
@@ -136,7 +126,7 @@ The Android app is developed on [MIT App Inventor](https://appinventor.mit.edu/)
 - The same is monitored on the android app.
 
 <p align="center">
-	<img src="https://user-images.githubusercontent.com/80714882/234114238-41d6ee21-1c28-46a9-9c0d-b48742afa090.png" width="80%" height="80%">
+	<img src="images/8(1).jpg" width="80%" height="80%">
 </p> 
 
 ### Temperature and Light Sensing
@@ -145,17 +135,13 @@ The Android app is developed on [MIT App Inventor](https://appinventor.mit.edu/)
 - Light intensity in the room is sensed using a LDR (Light Dependent Resistor) module. This is used for automatic switching of bulb as explained later.
 
 <p align="center">
-	<img src="https://user-images.githubusercontent.com/80714882/234114566-7230f107-29dd-4cd1-966a-6301c06e53cb.png" width="80%" height="80%">
+	<img src="images/7.jpg" width="80%" height="80%">
 </p> 
 
 ### Safety System
 
 - For safety purpose, a smoke detection unit is implemented with MQ2 sensor which activates a buzzer and Led in presence of smoke. 
 - The buzzer turns off automatically once the smoke disappears.
-
-<p align="center">
-	<img src="https://user-images.githubusercontent.com/80714882/234114873-c41521b8-81c2-43db-bd48-f31e5adf0f3e.png" width="80%" height="80%">
-</p> 
 
 ### Security System 
 
@@ -165,19 +151,12 @@ A security system is implemented on the door using Ultrasonic and Touch sensors.
 
 - If a person comes in the range of ultrasonic sensor mounted on the door, the App/OLED displays presence of the person and Led turns on to notify the same.
 
-<p align="center">
-	<img src="https://user-images.githubusercontent.com/80714882/234115167-8e785810-1221-41b8-b0b5-788d5d4c64e7.png" width="80%" height="80%">
-</p> 
-
 #### Touch Detection
 
 - If a person touches the door handle a buzzer is activated and App/OLED displays presence of touch along with an Led indicator. 
 - It can be deactivated by pressing the turn off button on app.
 - Touch sensing is implemented using ESP32 inbuilt touch sensor.
 
-<p align="center">
-	<img src="https://user-images.githubusercontent.com/80714882/234115176-9462aff6-b6b9-430a-b0e1-804a2cdbfc69.png" width="80%" height="80%">
-</p> 
 
 ### Fan/Light Control
 
@@ -197,14 +176,10 @@ The fan/bulb is operated in 3 modes using relays,
 
 - Everything can be switched off at once with one button on the app when leaving the room.
 
-<p align="center">
-	<img src="https://user-images.githubusercontent.com/80714882/234115221-09de22eb-a5c0-47e3-819a-6b6720899b08.png" width="80%" height="80%">
-</p> 
-
 ## Creator
 
 **Parikshit Pagare**
 
 <a href="https://linkedin.com/in/parikshitpagare"><img src="https://img.shields.io/badge/Linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white.svg"/></a>
 <a href="https://youtube.com/@parikshitpagare"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=YouTube&logoColor=white.svg"/></a>
-<a href="https://www.reddit.com/user/parikshitpagare"><img src="https://img.shields.io/badge/Reddit-DBDBDB?style=for-the-badge&logo=reddit&logoColor=white.svg"/></a>
+<a href="https://www.reddit.com/user/parikshitpagare"><img src="https://img.shields.io/badge/Reddit-DBDBDB?style=for-the-badge&logo=reddit&logoColor=white.svg"/></a>  
